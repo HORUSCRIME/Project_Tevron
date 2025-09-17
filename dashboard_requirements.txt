@@ -1,0 +1,23 @@
+# Additional requirements for Streamlit Dashboard
+# Add these to your existing requirements.txt
+
+# Dashboard Framework
+streamlit>=1.28.0
+
+# Interactive Plotting
+plotly>=5.15.0
+plotly-express>=0.4.1
+
+# Enhanced Data Visualization
+seaborn>=0.12.0
+
+# Additional ML capabilities for dashboard
+scipy>=1.9.0
+
+# Optional: For better performance on RPi
+streamlit-option-menu>=0.3.6  # Better sidebar navigation
+streamlit-aggrid>=0.3.4       # Enhanced data tables
+streamlit-plotly-events>=0.1.6 # Interactive plot events
+
+# Note: These packages are optimized for Raspberry Pi 3B
+# Installation may take longer due to compilation requirements
