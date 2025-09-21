@@ -1,0 +1,23 @@
+streamlit>=1.28.0
+pandas>=1.3.0,<2.1
+numpy==1.24.3
+lightgbm>=4.0.0
+scikit-learn>=1.2.0
+plotly>=5.0.0
+seaborn>=0.11.0
+matplotlib>=3.5.0
+firebase-admin>=6.0.0
+requests>=2.25.0
+ydata-profiling>=4.0.0
+configparser>=5.0.0
+python-dotenv>=0.19.0
+scipy>=1.7.0
+statsmodels>=0.13.0
+joblib>=1.1.0
+kaleido>=0.2.1
+
+# PDF Generation
+reportlab>=3.6.0
+# Note: weasyprint removed due to Windows compatibility issues
+# For HTML to PDF conversion, use browser Print-to-PDF or install wkhtmltopdf separately
+

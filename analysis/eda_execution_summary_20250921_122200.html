@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>EDA Execution Summary</title>
+                <style>
+                    body {
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        margin: 0;
+                        padding: 20px;
+                        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                        color: white;
+                    }
+                    .container {
+                        max-width: 1000px;
+                        margin: 0 auto;
+                        background: rgba(255,255,255,0.1);
+                        padding: 30px;
+                        border-radius: 15px;
+                        backdrop-filter: blur(10px);
+                    }
+                    .header {
+                        text-align: center;
+                        margin-bottom: 30px;
+                    }
+                    .header h1 {
+                        font-size: 2.5rem;
+                        margin-bottom: 10px;
+                        text-shadow: 0 4px 8px rgba(0,0,0,0.3);
+                    }
+                    .summary-stats {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                        gap: 20px;
+                        margin: 30px 0;
+                    }
+                    .stat-card {
+                        background: rgba(255,255,255,0.1);
+                        padding: 20px;
+                        border-radius: 10px;
+                        text-align: center;
+                        border: 1px solid rgba(255,255,255,0.2);
+                    }
+                    .stat-value {
+                        font-size: 2rem;
+                        font-weight: bold;
+                        margin-bottom: 5px;
+                    }
+                    .stat-label {
+                        font-size: 0.9rem;
+                        opacity: 0.8;
+                    }
+                    .modules-table {
+                        width: 100%;
+                        border-collapse: collapse;
+                        margin: 20px 0;
+                        background: rgba(255,255,255,0.1);
+                        border-radius: 10px;
+                        overflow: hidden;
+                    }
+                    .modules-table th, .modules-table td {
+                        padding: 12px 15px;
+                        text-align: left;
+                        border-bottom: 1px solid rgba(255,255,255,0.1);
+                    }
+                    .modules-table th {
+                        background: rgba(255,255,255,0.2);
+                        font-weight: 600;
+                    }
+                    .status-success {
+                        color: #00ff88;
+                        font-weight: bold;
+                    }
+                    .status-failed {
+                        color: #ff4757;
+                        font-weight: bold;
+                    }
+                    .status-timeout {
+                        color: #ffa502;
+                        font-weight: bold;
+                    }
+                    .status-not-found {
+                        color: #ff6b6b;
+                        font-weight: bold;
+                    }
+                    .files-section {
+                        margin: 30px 0;
+                        padding: 20px;
+                        background: rgba(255,255,255,0.1);
+                        border-radius: 10px;
+                    }
+                    .file-list {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                        gap: 15px;
+                        margin-top: 15px;
+                    }
+                    .file-item {
+                        background: rgba(255,255,255,0.1);
+                        padding: 10px 15px;
+                        border-radius: 5px;
+                        border-left: 4px solid #00ff88;
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="container">
+                    <div class="header">
+                        <h1>🌞 EDA Execution Summary</h1>
+                        <p>Solar Panel System Analysis Pipeline</p>
+                        <p><strong>Executed:</strong> September 21, 2025 at 12:22 PM</p>
+                    </div>
+                    
+                    <div class="summary-stats">
+                        <div class="stat-card">
+                            <div class="stat-value">0/6</div>
+                            <div class="stat-label">Modules Completed</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">0.1</div>
+                            <div class="stat-label">Total Minutes</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">0%</div>
+                            <div class="stat-label">Success Rate</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">❌</div>
+                            <div class="stat-label">Overall Status</div>
+                        </div>
+                    </div>
+                    
+                    <h3>📊 Module Execution Details</h3>
+                    <table class="modules-table">
+                        <thead>
+                            <tr>
+                                <th>Module</th>
+                                <th>Status</th>
+                                <th>Execution Time</th>
+                                <th>Notes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+            
+                            <tr>
+                                <td>Data Profiling & Quality Assessment</td>
+                                <td class="status-failed">❌ Failed</td>
+                                <td>0.7s</td>
+                                <td>Check logs for details</td>
+                            </tr>
+                
+                            <tr>
+                                <td>Statistical Visualizations</td>
+                                <td class="status-failed">❌ Failed</td>
+                                <td>0.6s</td>
+                                <td>Check logs for details</td>
+                            </tr>
+                
+                            <tr>
+                                <td>Correlation & Feature Analysis</td>
+                                <td class="status-failed">❌ Failed</td>
+                                <td>0.6s</td>
+                                <td>Check logs for details</td>
+                            </tr>
+                
+                            <tr>
+                                <td>Comprehensive Report Generation</td>
+                                <td class="status-failed">❌ Failed</td>
+                                <td>0.6s</td>
+                                <td>Check logs for details</td>
+                            </tr>
+                
+                            <tr>
+                                <td>Advanced Statistical Analysis</td>
+                                <td class="status-failed">❌ Failed</td>
+                                <td>0.6s</td>
+                                <td>Check logs for details</td>
+                            </tr>
+                
+                            <tr>
+                                <td>Interactive Dashboard Generation</td>
+                                <td class="status-failed">❌ Failed</td>
+                                <td>0.6s</td>
+                                <td>Check logs for details</td>
+                            </tr>
+                
+                        </tbody>
+                    </table>
+                    
+                    <div class="files-section">
+                        <h3>📁 Generated Files & Reports</h3>
+                        <div class="file-list">
+            
+                            <div class="file-item">
+                                <strong>Comprehensive Reports</strong><br>
+                                <small>analysis/reports/</small>
+                            </div>
+                
+                        </div>
+                        <p><strong>Total files generated:</strong> 1</p>
+                    </div>
+                    
+                    <div class="files-section">
+                        <h3>🚀 Next Steps</h3>
+                        <ul>
+                            <li><strong>View Reports:</strong> Open the generated HTML reports in your browser</li>
+                            <li><strong>Interactive Dashboards:</strong> Navigate to analysis/interactive/index.html</li>
+                            <li><strong>Enhanced Dashboard:</strong> Run <code>streamlit run src/enhanced_dashboard.py</code></li>
+                            <li><strong>Review Logs:</strong> Check eda_execution.log for detailed execution logs</li>
+                            <li><strong>Model Training:</strong> Ensure models are trained with <code>python src/train.py</code></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="files-section">
+                        <h3>📞 Support</h3>
+                        <p>If you encounter issues:</p>
+                        <ul>
+                            <li>Check the execution log: <code>eda_execution.log</code></li>
+                            <li>Verify all dependencies are installed: <code>pip install -r requirements.txt</code></li>
+                            <li>Ensure data is available: <code>python generate_data.py</code></li>
+                            <li>Run individual modules manually for debugging</li>
+                        </ul>
+                    </div>
+                </div>
+    </body>
+</html>
+            

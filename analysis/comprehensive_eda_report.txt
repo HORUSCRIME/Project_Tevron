@@ -1,0 +1,20 @@
+COMPREHENSIVE EXPLORATORY DATA ANALYSIS REPORT
+================================================================================
+Generated on: 2025-09-21 13:30:27.748974
+Dataset shape: (9841, 20)
+Date range: 2023-01-01 00:00:00 to 2024-02-15 00:00:00
+
+DATA QUALITY SUMMARY
+------------------------------
+Missing values: 581 total
+Complete records: 9430
+Data completeness: 95.8%
+
+KEY INSIGHTS
+---------------
+• Total energy produced: 12480.9 kWh
+• Average daily production: 30.4 kWh
+• Peak instantaneous output: 9.5 kW
+• Maintenance frequency: 3.4%
+• Temperature correlation with output: 0.802
+• Irradiance correlation with output: 0.928
