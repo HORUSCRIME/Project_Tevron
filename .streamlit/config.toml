@@ -1,2 +1,7 @@
 [server]
-python = "3.11"git 
+headless = true
+enableCORS = false
+port = 8501
+
+[runner]
+python = "3.8"
