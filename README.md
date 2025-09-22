@@ -4,21 +4,21 @@ A comprehensive machine learning application for solar panel monitoring with adv
 
 ## Features
 
-### 🚀 Core Capabilities
+###  Core Capabilities
 - **Real-time Monitoring**: Live dashboard with current solar panel metrics
 - **Predictive Maintenance**: ML-based maintenance need prediction using LightGBM
 - **Performance Forecasting**: Energy output prediction with weather integration
 - **Anomaly Detection**: Isolation Forest for detecting unusual patterns
 - **Historical Analysis**: Comprehensive data visualization and trend analysis
 
-### 📊 Enhanced Analytics
+###  Enhanced Analytics
 - **Advanced EDA**: 6 comprehensive analysis modules with 50+ visualizations
 - **Interactive Dashboards**: Plotly-based interactive exploration tools
 - **Statistical Analysis**: Time series decomposition, correlation networks, PCA
 - **Performance Optimization**: Efficiency analysis and optimization recommendations
 - **Comprehensive Reports**: Automated HTML reports with actionable insights
 
-### 🎨 Modern UI/UX
+###  Modern UI/UX
 - **Enhanced Dashboard**: Beautiful dark theme with animations and gradients
 - **3D Visualizations**: Interactive 3D performance analysis
 - **Real-time Alerts**: Smart notification system with severity levels
@@ -175,14 +175,14 @@ Optimized for edge devices:
 
 ## Analysis & Monitoring Features
 
-### 📈 Real-time Monitoring
+###  Real-time Monitoring
 - Live energy production metrics with advanced gauges
 - Weather correlation analysis with 3D visualizations
 - Smart maintenance alerts with ML predictions
 - Performance trends with seasonal decomposition
 - Anomaly notifications with severity classification
 
-### 🔍 Advanced Analytics
+###  Advanced Analytics
 - **Data Profiling**: Automated data quality assessment with ydata-profiling
 - **Statistical Analysis**: Normality tests, outlier detection, correlation networks
 - **Time Series Analysis**: Seasonal decomposition, stationarity tests, autocorrelation
@@ -190,7 +190,7 @@ Optimized for edge devices:
 - **Clustering Analysis**: Operational pattern identification with K-means
 - **Anomaly Detection**: Multi-algorithm anomaly detection (Isolation Forest, One-Class SVM)
 
-### 📊 Interactive Visualizations
+###  Interactive Visualizations
 - **Overview Dashboard**: Comprehensive system overview with 9 interactive charts
 - **Time Series Explorer**: Multi-variable time series analysis with maintenance events
 - **Performance Analyzer**: Efficiency analysis with dust impact and temperature effects
@@ -198,7 +198,7 @@ Optimized for edge devices:
 - **3D Performance Plots**: Interactive 3D scatter plots and surface visualizations
 - **Correlation Networks**: Feature relationship mapping and importance analysis
 
-### 📋 Comprehensive Reporting
+### Comprehensive Reporting
 - **Executive Summary**: KPI dashboard with key performance indicators
 - **Data Quality Report**: Missing data analysis, outlier detection, completeness metrics
 - **Performance Analysis**: Hourly/monthly patterns, efficiency trends, optimization opportunities
@@ -206,7 +206,7 @@ Optimized for edge devices:
 - **ML Insights**: Model performance, feature importance, predictive capabilities
 - **Strategic Recommendations**: Actionable insights with implementation roadmap
 
-## 🎯 Quick Commands
+##  Quick Commands
 
 ```bash
 # Complete setup and analysis
@@ -225,7 +225,7 @@ python analysis/05_interactive_eda.py    # Interactive dashboards
 python analysis/06_comprehensive_report.py  # Full report
 ```
 
-## 📊 Output Files
+##  Output Files
 
 The system generates numerous analysis outputs:
 
@@ -236,7 +236,7 @@ The system generates numerous analysis outputs:
 - **Execution Logs**: `eda_execution.log`, `training.log`
 - **Model Files**: `models/*.pkl` (trained ML models)
 
-## 🔧 System Requirements
+##  System Requirements
 
 - **Python**: 3.8+ (tested on 3.9, 3.10, 3.11)
 - **Memory**: 4GB RAM minimum, 8GB recommended
@@ -244,7 +244,7 @@ The system generates numerous analysis outputs:
 - **CPU**: Multi-core recommended for faster analysis
 - **Browser**: Modern browser for interactive dashboards
 
-## 🚀 Performance Optimization
+##  Performance Optimization
 
 - **Caching**: Streamlit caching for faster dashboard loading
 - **Parallel Processing**: Multi-threaded analysis where possible
