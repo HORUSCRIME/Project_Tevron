@@ -18,6 +18,3 @@ kaleido>=0.2.1
 
 # PDF Generation
 reportlab>=3.6.0
-# Note: weasyprint removed due to Windows compatibility issues
-# For HTML to PDF conversion, use browser Print-to-PDF or install wkhtmltopdf separately
-
